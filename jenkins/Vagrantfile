@@ -1,0 +1,5 @@
+Vagrant::Config.run do |config|
+  config.vm.box = "natty"
+  config.vm.provision :puppet
+  config.vm.forward_port("web", 8080, 8080, :auto => true)
+end

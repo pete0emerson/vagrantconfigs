@@ -1,0 +1,3 @@
+# Vagrant Configurations
+
+These vagrant files will take an Ubuntu Natty .box (see http://www.vagrantbox.es/) and deploy an application to it
