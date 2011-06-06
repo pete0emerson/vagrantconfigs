@@ -1,0 +1,4 @@
+Vagrant::Config.run do |config|
+  config.vm.box = "natty"
+  config.vm.provision :puppet
+end
